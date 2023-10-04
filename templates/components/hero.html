@@ -1,7 +1,9 @@
 <div class="bg-white">
   <div class="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
-      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+      <h2
+        class="flex items-center justify-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+      >
         Boost your productivity.<br />Start using our app today.
       </h2>
       <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
@@ -19,6 +21,17 @@
           >Learn more <span aria-hidden="true">→</span></a
         >
       </div>
+      <div class="mt-10">
+        Check out our
+        <a
+          hx-get="/jacket"
+          hx-target="#jacket"
+          class="cursor-pointer text-sm font-semibold text-indigo-600 hover:text-indigo-500"
+        >
+          Fall jacket
+        </a>
+      </div>
+      <div class="w-30 mt-10" style="border-radius: 20px" id="jacket"></div>
     </div>
   </div>
 </div>
